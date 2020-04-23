@@ -12,5 +12,5 @@ function helloWorld() {
 // }
 
 function sayHello () {
-
+    return "";
 }
