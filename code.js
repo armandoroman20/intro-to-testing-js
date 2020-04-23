@@ -12,13 +12,15 @@ function helloWorld() {
 // }
 
 function sayHello (input) {
-    if ( input === true) {
+    if ( input === true ||  input === false ) {
         return "Hello, World!";
-    }  else if ( input === false ) {
-        return "Hello, World!";
-    } else if ( input === undefined ) {
+    }  else if ( input === undefined ) {
         return "Hello, World!";
     } else {
         return "Hello, " + input + "!";
     }
+}
+
+function isFive() {
+
 }
